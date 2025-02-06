@@ -1,0 +1,16 @@
+  426  git push --set-upstream origin main
+  427  git branch
+  428  git branch feature
+  429  git branch
+  430  git checkout feature
+  431  git push origin feature
+  432  git checkout main
+  433  git merge feature
+  434  git push origin main
+  435  git commit --amend
+  436  git commit --amend
+  437  git push --force
+  438  git checkout main
+  439  git merge feature
+  440  git push origin main
+  441  git add history.txt
